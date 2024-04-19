@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camilo Aguirre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/logo.svg">
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+
+<body>
+    <a href="#" id="goTopButton"><img src="assets/img/arrow.svg" alt="Subir hacia arriba"></a>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="">Camilo <span>Dev;</span></a></div>
+            <ul class="links">
+                <li><a href="#about-content" class="hero">Home</a></li>
+                <li><a href="#about-section" class="about">About</a></li>
+                <li><a href="#projects-work" class="work">Work</a></li>
+            </ul>
+            <div class="icons">
+                <a href="https://github.com/CamiloDevWeb" target="_blank" class="img-git"><img
+                        src="assets/img/github-dark.svg" alt="imagen-de-github"></a>
+                <a href="https://www.linkedin.com/in/camilo-aguirre-99a015219/" target="_blank"
+                    class="img-linkedin"><img src="assets/img/linkedin-dark.svg" alt="imagen-de-linkedin"></a>
+                <a href="#contact-me" class="action_btn">Contact me</a>
+            </div>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+
+        <div class="dropdown_menu">
+            <li><a href="#" class="hero">Home</a></li>
+            <li><a href="#about-section" class="about">About</a></li>
+            <li><a href="#projects-work" class="work">Work</a></li>
+            <li><a href="#contact-me" class="action_btn">Contact me</a></li>
+        </div>
+
+    </header>
+
+    <div class="about-content">
+        <img src="assets/img/myfoto-fotor-2024031716583.png" alt="Camilo's photo">
+        <div class="text-container">
+            <h1 id="typed-text"></h1>
+            <strong>System Engineer, Back end end & App Developer.</strong>
+            <a href="assets/documents/1. HOJA_DE_VIDA.pdf" target="_blank">Download CV</a>
+        </div>
+    </div>
+    </div>
+    <div id="scrollContainer">
+        <a href="#about-section" id="scrollToWork"><img src="assets/img/scroll.svg" alt="Go to Work" width="40"
+                height="40"></a>
+    </div>
+
+    <div id="about-section" class="about-content1">
+        <h2 class="section-title">About</h2>
+        <div class="content-wrapper">
+
+            <div class="left-column">
+                <p>My experience in backend development covers technologies and programming languages, highlighting
+                    Python, Java, C++, among others such as databases (MySQL, PostgreSQL, Oracle). He applied this
+                    knowledge in a variety of environments, up to enterprise applications and building commerce
+                    platforms.</p>
+                <h3>Frontend</h3>
+                <div class="container">
+                    <img src="assets/img/html.svg" alt="html-frontend">
+                    <img src="assets/img/css.svg" alt="css-frontend">
+                    <img src="assets/img/js.svg" alt="javascripts-frontend">
+                    <img src="assets/img/react.svg" alt="react-frontend">
+                </div>
+                <h3>Backend</h3>
+                <div class="container">
+                    <img src="assets/img/java.svg" alt="java-backend">
+                    <img src="assets/img/python.svg" alt="python-backend">
+                    <img src="assets/img/mysql.svg" alt="MySQL-backend">
+                    <img src="assets/img/nodes.svg" alt="nodes-backend">
+                </div>
+                <h3>Extra</h3>
+                <div class="container">
+                    <img src="assets/img/aws.svg" alt="AWS-extra">
+                    <img src="assets/img/git.svg" alt="GIT-extra">
+                    <img src="assets/img/powerbi.svg" alt="PBI-extra">
+                    <img src="assets/img/excel.svg" alt="excel-extra">
+                    
+                    
+
+
+                </div>
+            </div>
+            <div class="right-column">
+                <h3>Educacion</h3>
+                <div class="dropdown">
+                    <button class="dropbtn">Professional<span class="icon">+</span></button>
+                    <div class="dropdown-content">
+                        <p>I'm a systems engineering student at the Cooperative University of Colombia, currently 5th
+                            semester.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Certifications<span class="icon">+</span></button>
+                    <div class="dropdown-content">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="dropdown open">
+                    <button class="dropbtn">Extra networks<span class="icon">-</span></button>
+                    <div class="dropdown-content">
+                        <div class="youtube">
+
+                            <a href="https://www.youtube.com/channel/UC7Cv2fX5m1YZPW_lhFR2bWA" target="_blank">
+                                <img src="assets/img/youtube.svg" alt="Youtube">
+                            </a>
+                            <a href="https://discord.gg/dqaJJz4JSK" target="_blank">
+                                <img src="assets/img/discord.svg" alt="discord">
+                            </a>
+                            <a href="" target="_blank">
+                                <img src="assets/img/instagram.svg" alt="instagram">
+                            </a>
+                            <a href="" target="_blank">
+                                <img src="assets/img/paypal.svg" alt="paypal">
+                            </a>
+                        </div>
+                        <div class="discord">
+                            <img src="assets/img/target-disc.jpeg" alt="target-disc">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects-work">
+        <h2>Works</h2>
+        <p class="p-project">My approach focuses on adapting <br> solutions to the specific needs of <br> the project.
+        </p>
+        <div class="project-filter">
+            <button class="filter-btn" data-filter="all">ALL</button>
+            <button class="filter-btn" data-filter="web">WEB</button>
+            <button class="filter-btn" data-filter="mobile">APP</button>
+        </div>
+
+        <div class="project-container">
+            <div class="project" data-category="web">
+                <h3 class="project-title">Proyecto Web 1</h3>
+                <p class="project-description">Descripción breve del proyecto web 1.</p>
+                <button class="view-btn">View</button>
+            </div>
+            <div class="project" data-category="web">
+                <h3 class="project-title">Proyecto Web 2</h3>
+                <p class="project-description">Descripción breve del proyecto web 2.</p>
+                <button class="view-btn">View</button>
+            </div>
+            <div class="project" data-category="mobile">
+                <h3 class="project-title">Proyecto Mobile 1</h3>
+                <p class="project-description">Descripción breve del proyecto mobile 1.</p>
+                <button class="view-btn">View</button>
+            </div>
+            <div class="project" data-category="mobile">
+                <h3 class="project-title">Proyecto Mobile 2</h3>
+                <p class="project-description">Descripción breve del proyecto mobile 2.</p>
+                <button class="view-btn">View</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="contact-me" class="contact-me">
+        <div class="conteiner-contact-me">
+            <div class="section-title-contact">
+                <h2>Contact me</h2>
+                <p>Si tienes alguna pregunta, comentario o simplemente quieres ponerte en contacto, no dudes en enviarme
+                    un mensaje. Estoy siempre abierto a nuevas oportunidades de colaboración, proyectos emocionantes o
+                    simplemente una charla amistosa. Además, estoy disponible para brindar mis servicios en [especifica
+                    tus servicios o áreas de expertise].</p>
+            </div>
+            <div class="continer-contact">
+                <div class="contact-LEC">
+                    <div class="contact-item">
+                        <img src="assets/img/location-svg.svg" alt="location-me" onclick="copyToClipboard('location')">
+                        <p id="location">Kr 97 b 60 sur 04</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="assets/img/email-svg.svg" alt="email-me" onclick="copyToClipboard('email')">
+                        <p id="email">Brayan93j.k@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <img src="assets/img/call-svg.svg" alt="phone-me" onclick="copyToClipboard('phone')">
+                        <p id="phone">+57 311/8907 203</p>
+                    </div>
+                    <div class="contact-item">
+                        <div id="map" class="map-container"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <p>Your Name:</p>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="input-group">
+                                <p>Your Email:</p>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required><br><br>
+
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="conteiner-footer">
+            <div class="c-copyright">
+                <p> © Copyright <strong><span>Nero.Camilo</span></strong>.All Rights Reserved </p>
+            </div>
+            <div class="c-credits">
+                <p>Desinged by <a href="#">Nero.Camilo</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
